@@ -1,1 +1,1 @@
-En este proyecto se llevó a cabo el proyecto de encriptador por parte del curso de Alura.
+En este proyecto se lleva a cabo el encriptador por parte del curso de Alura.
