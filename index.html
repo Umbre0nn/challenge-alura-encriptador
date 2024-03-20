@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Meta tags para definir codificación, compatibilidad, y escala del viewport -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Política de permisos -->
+    <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
+    <!-- Enlace al archivo CSS para estilos -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Enlace a la fuente de Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap" rel="stylesheet">
+    <!-- Título de la página -->
+    <title>Encriptador Challenge</title>
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <!-- Logo de la página -->
+        <img class="logo-img" src="Imagenes/Logo.svg" alt="logo">
+    </header>
+
+    <!-- Contenido principal -->
+    <main>
+        <!-- Sección para la entrada de texto -->
+        <section class="section-input">
+            <!-- Contenedor de la caja de texto -->
+            <div class="text-box-container">
+                <!-- Área de texto para ingresar el mensaje -->
+                <textarea placeholder="Ingrese el texto aquí" class="text-box"></textarea>
+            </div>
+            <!-- Caja de alerta -->
+            <div class="alert-box">
+                <!-- Icono de alerta -->
+                <img src="Imagenes/alerta.svg" alt="alerta">
+                <!-- Mensaje de alerta -->
+                <p>Solo letras minúsculas y sin acentos</p>
+            </div>
+            <!-- Contenedor de botones -->
+            <div class="button-container">
+                <!-- Botón para encriptar el texto -->
+                <input type="button" class="encrypt-btn" value="Encriptar">
+                <!-- Botón para desencriptar el texto -->
+                <input type="button" class="decrypt-btn" value="Desencriptar">
+            </div>
+        </section>
+
+        <!-- Sección para la salida de texto -->
+        <section class="section-output">
+            <!-- Contenedor de imagen -->
+            <div class="image-container">
+                <!-- Imagen decorativa -->
+                <img src="Imagenes/Muñeco.svg" alt="muñeco">
+            </div>
+            <!-- Contenedor de párrafos -->
+            <div class="paragraph-container">
+                <!-- Título de sección -->
+                <h3>Ningún mensaje fue encontrado</h3>
+                <!-- Mensaje descriptivo -->
+                <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <!-- Contenedor para botón de copiar -->
+            <div class="copy-container">
+                <!-- Botón para copiar el resultado -->
+                <input type="button" class="copy-btn" value="Copiar">
+            </div>
+            <!-- Contenedor para mostrar el resultado de encriptar o desencriptar -->
+            <div class="result-container">
+                <p class="result-text"></p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <!-- Créditos -->
+        <p>Por Roman Geovany Chavez Atriano</p>
+    </footer>
+
+    <!-- Enlace al archivo JavaScript para funcionalidad -->
+    <script src="script.js"></script>
+</body>
+</html>
